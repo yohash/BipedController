@@ -5,7 +5,7 @@ A Biped Controller for fully procedural hand/feel movements
 # VR introduction
 As of Unity 2021.3.10f1, here are the minimum requirements to get Head and Hand tracking setup in VR, with a PC-connected Oculus Quest CV1.
 
-1. Using Unity's Package Manager (UPM), download Unity's VR Feature, which includes two packages:
+1. Using the Unity Package Manager (UPM), download Unity's VR Feature, which includes two packages:
   - Oculus XR Plugin
   - OpenXR Plugin
 
@@ -34,7 +34,7 @@ As of Unity 2021.3.10f1, here are the minimum requirements to get Head and Hand 
 
 10. In the Hierarchy panel, expand down to `XR Origin > Camera Offset > LeftHand Controller` and select. Right-click the `XR Controller (Action-based)` component, and select `Remove Component`. Do the same for `XR Origin > Camera  Offset > RightHand Controller`
 
-![image](https://user-images.githubusercontent.com/8541667/220859861-e7f9eb85-b308-467b-8d35-71e04231af60.png)
+![image](https://user-images.githubusercontent.com/8541667/220864294-1d248b13-c05f-4074-a51a-507939b34c6d.png)
 
 11. From your Project panel, navigate to `Assets/Samples/XR Interaction Toolkit/<version>/Starter Assets/XRI Default Left Controller`. Drag+drop this asset into the Hierarchy panel, `XR Origin > Camera Offset > LeftHand Controller`
 12. Do the same with `Assets/.../XRI Default Right Controller` and `XR Origin > Camera Offset > RightHand Controller`
